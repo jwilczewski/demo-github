@@ -21,6 +21,7 @@ public class HelloController {
         ArrayList<String> list = new ArrayList<>();
         list.add("hello");
         list.add("world");
+        list.add("world2");
         logger.info(list);
         return "OK";
     }
